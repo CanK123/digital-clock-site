@@ -21,16 +21,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 7rem;
-  width: 40rem;
+  width: 44rem;
+  border-radius: 20px;
+  background-color: hsl(208, 100%, 97%, 0.1);
 }
 
 .clock {
-  padding: 0 20%;
-  background-color: hsl(208, 100%, 97%, 0.1);
   color: hsl(120, 10%, 97%, 0.8);
   font-size: 6rem;
   font-weight: 7rem;
   font-family: system-ui;
-  width: 100%;
-  border-radius: 20px;
 }
