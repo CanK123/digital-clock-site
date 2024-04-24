@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.clock-container {
+  display: flex;
+  padding: 0.7rem 3rem;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 40rem;
+}
+
+.clock {
+  padding: 0 20%;
+  background-color: hsl(208, 100%, 97%, 0.1);
+  color: hsl(120, 10%, 97%, 0.8);
+  font-size: 6rem;
+  font-weight: 7rem;
+  font-family: system-ui;
+  width: 100%;
+  border-radius: 20px;
+}
